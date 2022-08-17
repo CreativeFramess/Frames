@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Libre+Caslon+Display&family=Lobster+Two&family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fira+Sans:wght@300&family=Libre+Caslon+Display&family=Lobster+Two&display=swap');
+@font-face{
+    font-family: "Redes";
+    src: url(../fonts/Redes.ttf);
+}
+body{
+    background-color: #ffff;
+  }
+  .cabeza{
+      width:100%; 
+      height: 100px;
+      text-align: center;
+      background-color: white;
+      color: black;
+      background-blend-mode: soft-light;
+      background-size: cover;
+  }
+  .cabezera{
+      width:100%;
+      height: 55px;
+      background-color: whitesmoke;
+      text-align: center;
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  }
+  .logo{
+      width:40px;
+      margin: 0px;
+  }
+  .logo img{
+      width: 100%;
+  }
+  #t1{
+    font-family: 'Bree Serif', serif; /*titulos¨*/
+    font-weight: 400; /*reduce la letra en negrita*/
+    position: relative;
+    margin-top: 20px;
+    font-size: 60px;
+    
+  }
+  li{
+      display:inline-block;
+      text-decoration: #F637EC;
+      color: #66BFBF;
+      font-size: 17px;
+      font-family: 'Nunito', sans-serif;
+      margin: 0 1.5rem;
+  }
+  .opciones_menu{
+      text-decoration: none;
+      color: #66BFBF;
+  }
+  .opciones_menu:hover{
+      color: #F637EC;
+      font-size: 18px;
+      border-bottom: 1px solid #F637EC;
+  }
+
+   .titulo{
+    padding: 10px 0px 0px 10px;
+    font-family: 'Anton', sans-serif;
+    color: #071e3d;
+    font-size: 35px;
+    text-align: center;
+}
+.uno{
+    margin: 30px 10px 20px 10px;
+    width: 90%;
+    height: 475px;
+    border-radius: 25px;
+
+ }
+.dos{
+    background-color: #dee1e1c3;
+    width: 100%;
+    height: 495px;
+    margin: 10px 0px 20px 0px;
+    padding: 20px 0px 10px 0px;
+    box-shadow: 0 6px 22px 0 rgba(53, 55, 55, 0.934);
+}
+.tres{
+    background-color: #dee1e1c3;
+    width: 100%;
+    height: 495px;
+    margin: 10px 0px 20px 0px;
+    padding: 20px 0px 10px 0px;
+    box-shadow: 0 6px 22px 0 rgba(53, 55, 55, 0.934);
+}
+.cuatro{
+    background-color: #dee1e1c3;
+    width: 65%;
+    height: 570px;
+    margin: 100px 100px 20px 200px;
+    padding: 20px 0px 10px 0px;
+    box-shadow: 0 6px 22px 0 rgba(53, 55, 55, 0.934);
+}
+.botoncito{
+   bottom: 90px;
+   right: 5%;
+}
+.boton1{
+    bottom: 57px;
+    right: 5%;
+ }
+.textito{
+    position: absolute;
+    bottom: 30px;
+   color: red;
+   font-size: 30px;
+   text-align: center;
+   left: 38%;
+}
+.textitoo{
+    position: absolute;
+    bottom: 12px;
+   color: red;
+   font-size: 30px;
+   text-align: center;
+   left: 38%;
+}
+.card{
+    left: 5%;
+    height: 450px;
+    margin: 0px 30px 30px 0px ;
+    display: inline-block;
+}
+.card-img-bottom{
+    margin-top: -60px;
+}
+.boton{
+    left: 70px;
+    position: absolute;
+    margin-top: -110px;
+}
+.texto{
+    padding: 0px 20px 20px 20px;
+    color: #071e3d;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: justify;
+    font-size: 20px;
+}
+.t1{
+    padding: 20px 0px 0px 80px;
+}
+.texto2{
+    padding: 35px 10px 10px 10px ;
+    position: absolute;
+    left: 55%;
+    text-align: left;
+  
+}
+.texto3{
+    position: absolute;
+    color: red;
+    margin-top: -70px;
+    left: 120px;
+    font-size: 30px;
+}
+.landing{
+    position: absolute;
+    left: 50px;
+}
+.texto1{
+    padding: 10px 10px 20px 80px;
+    text-align: center;
+}
+  
+ .web{
+    left: 40%;
+    position: absolute;
+    margin-top: -100px;
+ }
+ .logos{
+    margin-top: 10px;
+ }
+ .marketing{
+    margin-top: 10px;
+ }
+ .market{
+    margin-top: -40px;
+ }
+ .container1{
+    width: 470px;
+    height: 650px;
+    display: flex;
+    margin-left: 700px;
+    margin-top: -767px;
+    
+}
+#back{
+    position: relative;
+    top: -40px;
+}
+#back1{
+    position: relative;
+    top: -35px;
+}
+.card1{
+    width: 350px;
+  
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    border-color: #66BFBF;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.card1:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.card1 img{
+    width: 500x;
+    height: 500px;
+    margin-left: -30px;
+}
+
+.card1 .contenido1{
+    padding: 15px;
+    text-align: center;
+
+}
+
+.card1 .contenido1 p{
+    line-height: 1.5; 
+    color: black;
+    font-family: 'Nunito', sans-serif;
+}
+.card1 .contenido1 h4{
+    font-weight: 200;
+    font-family: 'Bree Serif', serif;
+    margin-bottom: 15px;
+}
+
+.card1 .contenido1 a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: black;
+    transition: all 400ms ease;
+    background-color: #F637EC;
+    border-radius: 4px;
+    font-family: 'Bree Serif', serif;
+}
+
+.card1 .contenido1 a:hover{
+    background-color: #66BFBF;
+    color: black;
+}
+  
+footer{
+    background-color: whitesmoke;
+    height: 300px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.6);
+    
+}
+
+.tabla{
+    width: 50%;
+    text-align: right;
+    padding: 65px 100px 0px 0px;
+    
+
+    display: inline-block;
+}
+.link{
+    width: 50%;
+    float: right;
+    padding: 65px 0px 0px 100px;
+}
+.redes{
+    color: #21e6c1;
+    text-decoration: none;
+    text-align: center;
+    font-size: 40px;
+   font-family: "Redes";
+   src: url(../fonts/Redes.ttf);
+}
+
+@media screen and (max-width:480px){
+    #t1{
+        margin-top: 0px;
+        font-size: 38px;
+        
+      }
+    li{
+        font-size: 7px;
+        margin: 0 .5rem;
+    }
+    .uno{
+        margin: 30px 0px 20px 0px;
+        width: 100%;
+        height: 475px;
+        border-radius: 25px;
+    
+     }
+     .titulo{
+        padding: 10px 0px 0px 10px;
+        font-family: 'Anton', sans-serif;
+        color: #071e3d;
+        font-size: 25px;
+        text-align: center;
+    }
+    .texto{
+        padding: 0px 8px 0px 8px;
+        color: #071e3d;
+        font-family: 'Fira Sans', sans-serif;
+        text-align: justify;
+        font-size: 16px;
+    }
+    .texto2{
+        padding: 35px 0px 10px 0px ;
+        position: relative;
+        left: 0%;
+        text-align: center;
+      
+    }
+    .dos{
+     background-color: #ffff;
+    width: 100%;
+    height: 495px;
+    margin: 10px 0px 20px 0px;
+    padding: 20px 0px 10px 0px;
+    box-shadow: 0 0px 0px 0 rgba(53, 55, 55, 0.934);
+      overflow: hidden;  
+    }
+    .cuatro{
+        background-color: #fff;
+        width: 65%;
+        height: 570px;
+        margin: 100px 0px 20px 0px;
+        padding: 20px 0px 10px 0px;
+        box-shadow: 0 0px 0px 0 rgba(53, 55, 55, 0.934);
+       
+    }
+    .tres{
+        background-color: #fff;
+        width: 100%;
+        height: 495px;
+        margin: 10px 0px 20px 0px;
+        padding: 20px 0px 10px 0px;
+        box-shadow: 0 0px 0px 0 rgba(53, 55, 55, 0.934);
+    }
+    .card{
+        left: 3%;
+        width: 70%;
+        height: 450px;
+        margin: 0px 30px 30px 0px ;
+        display: inline-block;
+    }
+}  
+ @media screen and (min-width:481px) and (max-width:780px)and (orientation: landscape) {
+    .t1{
+        padding: 0px 0px 0px 0px;
+    }
+    .uno{
+        margin: 30px 0px 0px 0px;
+        width: 100%;
+        height: 475px;
+        border-radius: 25px;
+    
+     }
+     .titulo{
+        padding: 10px 0px 0px 10px;
+        font-family: 'Anton', sans-serif;
+        color: #071e3d;
+        font-size: 25px;
+        text-align: center;
+    }
+    .texto{
+        padding: 0px 8px 0px 8px;
+        color: #071e3d;
+        font-family: 'Fira Sans', sans-serif;
+        text-align: justify;
+        font-size: 16px;
+    }
+    .texto2{
+        padding: 35px 0px 10px 0px ;
+        position: relative;
+        left: 0%;
+        text-align: center;
+      
+    }
+    .dos{
+        background-color: #fff;
+        width: 65%;
+        height: 570px;
+        margin: 20px 0px 900px 0px;
+        padding: 20px 0px 10px 0px;
+        box-shadow: 0 0px 0px 0 rgba(53, 55, 55, 0.934); 
+    }
+    .cuatro{
+        display: none;
+       
+    }
+    .tres{
+        display: none;
+    }
+    .card{
+        left: 15%;
+        width: 70%;
+        height: 450px;
+        margin: 0px 30px 30px 0px ;
+        display: inline-block;
+    }
+    .landing{
+        display: none;
+    }
+    .texto1{
+        padding: 35px 10px 10px 10px ;
+        position: absolute;
+        left: 55%;
+        text-align: left;
+        margin-top: 750px;
+      
+    }
+    .texto2{
+        padding: 35px 10px 10px 10px ;
+        position: relative;
+        left: 55%;
+        text-align: left;
+        margin-top: 1050px;
+      
+    }
+
+ }

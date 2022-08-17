@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap'); /*titulos*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap'); /*texto*/
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Nunito:wght@200;400&display=swap');
+@font-face{
+    font-family: "Redes";
+    src: url(../fonts/Redes.ttf);
+}
+
+body{
+    background-color: white;
+}
+.cabeza{
+    width:100%; 
+    height: 100px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    background-blend-mode: soft-light;
+    background-size: cover;
+}
+.cabezera{
+    width:100%;
+    height: 55px;
+    background-color: whitesmoke;
+    text-align: center;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+}
+.logo{
+    width: 50px;
+    margin: 15px;
+}
+.logo img{
+    width: 100%;
+}
+#t1{
+    font-family: 'Bree Serif', serif; /*titulos¨*/
+    font-weight: 400; /*reduce la letra en negrita*/
+    position: relative;
+    margin-top: 20px;
+    font-size: 60px;
+    
+}
+li{
+    display:inline-block;
+    text-decoration-color: #F637EC;
+    color: #66BFBF;
+    font-size: 17px;
+    font-family: 'Nunito', sans-serif;
+    margin: 0 1.5rem;
+}
+.opciones_menu{
+    text-decoration: none;
+    color:#66BFBF;
+}
+.opciones_menu:hover{
+    color: #F637EC;
+    font-size: 18px;
+    border-bottom: 1px solid #F637EC;
+}
+
+.lineatitulos{
+    height: 10px;
+    width: 100%;
+    background-color: black;
+    margin-top: 10px;
+    border-radius: 20px;
+  }
+.uno{
+    width: 44%;
+    height: 350px;
+    margin: 10px 10px 90px 50px;
+    margin-top: 430px;
+}
+
+.uno, .dos{
+    display: inline-block;
+}
+.cajacarrusel{
+    width: 100%;
+    height: 480px;
+    margin: 0px 0px 70px 0px;
+   
+}
+.tres{
+    right: 60%;
+    width: 44%;
+    height: 280px;
+    margin: 20px 10px 10px 50px;
+   
+}
+.cuatro{
+    width:44%;
+    height: 290px;
+    margin: 20px 10px 10px 50px;
+    
+     
+
+}
+.tres, .cuatro{
+    display: block;
+}
+img{
+    margin-top: -20px;
+}
+
+.titulo{
+    padding: 10px 20px 0px 10px;
+    font-family: 'Bree Serif', serif;
+    color: black;
+    font-size: 35px;
+    text-align: center;
+}
+.texto{
+    padding: 0px 20px 20px 10px;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    text-align: justify;
+    font-size: 20px;
+}
+.calidad{
+    position: absolute;
+    left: 55%;
+    margin-top: -1020px;
+}
+.t1{
+    position: absolute;
+    left: 55%;
+    margin-top: -820px;
+}
+.compromiso{
+    position: absolute;
+    left: 75%;
+    margin-top: -1020px;
+}
+.t2{
+    position: absolute;
+    left: 75%;
+    margin-top: -820px;
+}
+
+.innovacion{
+    position: absolute;
+    left: 55%;
+    margin-top: -680px;
+}
+.t3{
+    position: absolute;
+    left: 55%;
+    margin-top: -500px;
+}
+
+.resultados{
+    position: absolute;
+    left: 75%;
+    margin-top: -680px;
+}
+.t4{
+    position: absolute;
+    left: 75%;
+    margin-top: -500px;
+}
+.trabajoenequipo{
+    position: absolute;
+    left: 55%;
+    margin-top: -360px;
+}
+.t5{
+    position: absolute;
+    left: 55%;
+    margin-top: -180px;
+} 
+
+.respeto{
+    position: absolute;
+    left: 75%;
+    margin-top: -360px;
+}
+.t6{
+    position: absolute;
+    left: 75%;
+    margin-top: -180px;
+}
+footer{
+    background-color: whitesmoke;
+    height: 300px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.6);
+    
+}
+.tabla{
+    width: 50%;
+    text-align: right;
+    padding: 65px 100px 0px 0px;
+    
+
+    display: inline-block;
+}
+
+.link{
+    width: 50%;
+    float: right;
+    padding: 65px 0px 0px 100px;
+}
+.redes{
+    color: #21e6c1;
+    text-decoration: none;
+    text-align: center;
+    font-size: 40px;
+   font-family: "Redes";
+   src: url(../fonts/Redes.ttf);
+
+}
+
+/*tablet*/
+@media screen and (min-width: 481px) and (max-width: 780px) and (orientation: portrait){
+    .cajacarrusel{
+        display: none;
+    }
+    .uno{
+        width: 100%;
+        height: 350px;
+        margin: 10px 0px 0px 0px;
+        padding: 0px 10px 0px 10px;
+        margin-top: 100px;
+    }
+    .tres{
+        width: 100%;
+        height: 350px;
+        margin: 10px 0px 0px 0px;
+        padding: 0px 10px 0px 10px;
+        margin-top: 0px;
+    }
+    .cuatro{
+        width: 100%;
+        height: 350px;
+        margin: 10px 0px 580px 0px;
+        padding: 0px 10px 0px 10px;
+        margin-top: 0px;
+    }
+    .t1{
+        display: none;
+    }
+    .t2{
+        display: none;
+    }
+    .t3{
+        display: none;
+    }
+    .t4{
+        display: none;
+    }
+    .t5{
+        display: none;
+    }
+    .t6{
+        display: none;
+    }
+    .calidad{
+       
+        left: 18%;
+        margin-top: -700px;
+    }
+    .compromiso{
+       
+        left: 58%;
+        margin-top: -700px;
+    }
+    .innovacion{
+       
+        left: 18%;
+        margin-top: -460px;
+    }
+    .resultados{
+       
+        left: 58%;
+        margin-top: -460px;
+    }
+    .trabajoenequipo{
+       
+        left: 18%;
+        margin-top: -230px;
+    }
+    .respeto{
+       
+        left: 58%;
+        margin-top: -230px;
+    }
+
+
+    
+    .texto{
+        font-size: 15px;
+    }
+   
+    .tabla{
+        width: 50%;
+        text-align: right;
+        padding: 65px 100px 0px 0px;
+    }
+    footer{
+        font-size: 20px;
+        padding-top: 20px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 780px) and (orientation: landscape){
+    .cabezera{
+        width:100%;
+        height: 20px;
+        background-color: whitesmoke;
+        text-align: center;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    }
+    .uno{
+        padding: 10px 10px 5px 10px;
+        margin-top: -90px;
+    }
+    .cuatro{
+        padding: 10px 5px 20px 10px;
+    }
+    .texto{
+        font-size: 15px;
+    }
+    .trabajoenequipo{
+        display: none;
+    }
+    .t5{
+        display: none;
+    }
+    .innovacion{
+        display: none;
+    }
+    .t3{
+        display: none;
+    }
+    .calidad{
+        display: none;
+    }
+    .t1{
+        display: none;
+    }
+    
+    footer{
+        font-size: 8px;
+        padding-top: 30px;
+        width: 105%;
+    }
+}
+/*Celular*/
+@media screen  and (max-width: 480px){
+    #t1{
+        margin-top: 0px;
+        font-size: 38px;
+        
+      }
+    li{
+        font-size: 7px;
+        margin: 0 .5rem;
+    }
+    .cajacarrusel{
+        display: none;
+    }
+    .uno{
+        width: 100%;
+        height: 350px;
+        margin: 10px 0px 0px 0px;
+        padding: 0px 10px 0px 10px;
+        margin-top: 100px;
+    }
+    .tres{
+        width: 100%;
+        height: 350px;
+        margin: 10px 0px 0px 0px;
+        padding: 0px 10px 0px 10px;
+        margin-top: 0px;
+    }
+    .cuatro{
+        width: 100%;
+        height: 350px;
+        margin: 10px 0px 580px 0px;
+        padding: 0px 10px 0px 10px;
+        margin-top: 0px;
+    }
+    .calidad{
+       
+        left: 43%;
+        margin-top: -630px;
+    }
+    .compromiso{
+       
+        left: 38%;
+        margin-top: -400px;
+    }
+    .innovacion{
+       
+        left: 38%;
+        margin-top: -200px;
+    }
+    .resultados{
+     display: none;
+    }
+    .trabajoenequipo{
+        display: none;
+    }
+    .respeto{
+        display: none;
+    }
+    .t1{
+        display: none;
+    }
+    .t2{
+        display: none;
+    }
+    .t3{
+        display: none;
+    }
+    .t4{
+        display: none;
+    }
+    .t5{
+        display: none;
+    }
+    .t6{
+        display: none;
+    }
+    
+}

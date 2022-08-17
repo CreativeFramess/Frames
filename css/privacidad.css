@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap'); /*titulos*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap'); /*texto*/
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Nunito:wght@200;400&display=swap');
+@font-face{
+    font-family: "Redes";
+    src: url(../fonts/Redes.ttf);
+}
+body{
+    background-color: #ffff;
+  }
+  .cabeza{
+      width:100%; 
+      height: 100px;
+      text-align: center;
+      background-color: white;
+      color: black;
+      background-blend-mode: soft-light;
+      background-size: cover;
+  }
+  .cabezera{
+      width:100%;
+      height: 55px;
+      background-color: whitesmoke;
+      text-align: center;
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  }
+  .logo{
+      width:40px;
+      margin: 0px;
+  }
+  .logo img{
+      width: 100%;
+  }
+  #t1{
+    font-family: 'Bree Serif', serif; /*titulos¨*/
+    font-weight: 400; /*reduce la letra en negrita*/
+    position: relative;
+    margin-top: 20px;
+    font-size: 60px;
+    
+  }
+  li{
+      display:inline-block;
+      text-decoration: #F637EC;
+      color: #66BFBF;
+      font-size: 17px;
+      font-family: 'Nunito', sans-serif;
+      margin: 0 1.5rem;
+  }
+  .opciones_menu{
+      text-decoration: none;
+      color: #66BFBF;
+  }
+  .opciones_menu:hover{
+      color: #F637EC;
+      font-size: 18px;
+      border-bottom: 1px solid #F637EC;
+  }
+  /*hr{
+    
+    border-width: 5px;
+    border-bottom: 1px solid #66BFBF;
+    padding: 20px 35px 20px 35px;
+    
+  }*/
+  .caja{
+    width: 90%;
+    height: 680px;
+    margin: 0px 5px 5px 5px;
+    padding: 10px 30px 10px 50px;
+  }
+  .titulo{
+    font-family: 'Bree Serif', serif; 
+    text-align: center;
+    border-width: 5px;
+    border-bottom: 1px solid #66BFBF;
+    padding: 20px 35px 20px 35px;
+    font-size: 35px;
+}
+.texto{
+    margin-top: 20px;
+    color:  black;
+    font-family: 'Nunito', sans-serif;
+    text-align: justify;
+    font-size: 17px;
+}
+.tabla{
+    width: 50%;
+    text-align: right;
+    padding: none;
+    
+}
+
+.link{
+    position: relative;
+    top: -262px;
+    width: 40%;
+    float: right;
+    padding: 0px 0px 0px 60px;
+  
+}
+footer{
+    margin: 20px 0px 0px 0px;
+    background-color: whitesmoke;
+    height: 300px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.6);
+    
+}
+.redes{
+    color: #21e6c1;
+    text-decoration: none;
+    text-align: center;
+    font-size: 40px;
+   font-family: "Redes";
+   src: url(../fonts/Redes.ttf);
+
+}
+
+/*Tablet*/
+@media screen and (min-width:480px) and (max-width:780px) and (orientation: portrait) {
+    .cabeza{
+        width: 100%;
+        font-size: 10px;
+
+    }
+    .cabezera{
+        width: 100%;
+
+    }
+    #t1{
+        margin-left: 50px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .texto{
+        width: 90%;
+        font-size: 15px;
+
+    }   
+    .titulo{
+        font-size: 30px;
+    }
+    .caja{
+        height: 1100px;
+    }
+    .link{
+        position: relative;
+        top: -162px;
+        width: 40%;
+        float: right;
+        padding: 0px 0px 0px 60px;
+      
+    }
+    
+    footer{
+            width: 110%;
+            font-size: 8px;
+            background-color: whitesmoke;
+            height: 300px;
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.6);
+        
+        }
+    
+}
+
+@media screen and (min-width: 481px) and (max-width: 780px) and (orientation: landscape){
+    .caja{
+        height: 900px;
+    }
+    .link{
+        position: relative;
+        top: -162px;
+        width: 40%;
+        float: right;
+        padding: 0px 0px 0px 60px;
+      
+    }
+    footer{
+        width: 110%;
+        font-size: 8px;
+        background-color: whitesmoke;
+        height: 300px;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.6);
+    
+    }
+}
+
+/*Celular*/
+
+@media screen and (max-width: 480px){
+    .cabeza{
+        width: 90%;
+        height: 150px;
+        font-size: 30px;
+        padding: 0px;
+        margin: 0px;
+        padding-left: -50px;
+    }
+    #t1{
+        margin-top: 0px;
+        font-size: 38px;
+        
+      }
+    li{
+        font-size: 7px;
+        margin: 0 .5rem;
+    }
+    .titulo{
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    .texto{
+        width: 90%;
+        font-size: 15px;
+    }
+    .caja{
+        height: 1450px;
+    }
+    .link{
+        width: 50%;
+       right: -5%;
+        margin-top: 100px;
+    }
+    footer{
+        width: 110%;
+        font-size: 8px;
+        background-color: whitesmoke;
+        height: 300px;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.6);
+    
+    }
+    
+}
